@@ -115,6 +115,7 @@ $matricula=$R["matricula"];
 	function esconde(){
 		document.getElementById("muda").style.visibility="visible";
 		document.getElementById("altera").style.display="none";
+		//esvazia campos ocultos para evitar envio
 		document.getElementById("1").value="";
 		document.getElementById("2").value="";
 
@@ -203,7 +204,7 @@ $matricula=$R["matricula"];
 			<option value="<?echo $key; ?>" <? if ($key==$uf) echo "selected"; ?>>
 				<?echo $value; ?></option>
 				<?
-			}
+			} //
 			?>
 		</select><br>
 		CEP: 				<input value="<?php echo $cep; ?>" type="text" name="cep" required/><br>
