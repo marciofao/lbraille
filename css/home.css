@@ -1,0 +1,16 @@
+div{
+		font-family: Arial, Verdana;
+}
+#login{
+	text-align: center;
+}
+#login a:hover{
+	color: red;
+}
+.data{
+	background-color: red;
+}
+#msg{
+	font-color: red;
+}
+			

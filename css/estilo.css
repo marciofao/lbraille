@@ -1,0 +1,73 @@
+.pagewidth{
+		text-align: center;	
+}
+
+	/*
+		body{
+			background-image: url(img/fachada.jpg);
+			background-repeat: no-repeat;
+			width: 100%; 
+			height: auto;
+		}
+		*/
+		body{
+			margin: 0;
+			background-color: #B6E7F2;
+			font-family: verdana, arial;
+			text-align: center;
+		}
+		
+		
+		
+
+		info{
+			top: 80px;
+			margin-top:237px;
+			margin-left: -350px;
+			padding: 10px;
+			background-color: rgba(0,0,0,0.5);
+			position: absolute;
+			text-align: left;
+			color: white;
+			z-index: 1;	
+
+		}
+		info a, old a{
+			text-decoration: none;
+			color: white;
+		}
+		info a:hover, old a:hover{
+			text-decoration: underline;
+		}
+		old{
+			z-index: 1;
+			top: 90px;
+			margin-top:280px;
+			margin-left: -624px;
+			padding: 10px;
+			background-color: rgba(0,0,0,0.5);
+			position: absolute;
+			text-align: left;
+			color: white;	
+		}
+		#historia{
+			width: 620px;
+			text-align: justify;
+			margin: 0 auto;
+			background-color: rgba(0,0,0,0.5);
+			padding: 12px;
+			margin-top: 2em;
+
+		}
+		#historia h3{
+			text-align: center;
+			margin-top: 3em;
+		}
+		p{
+			text-indent: 3em;
+		}
+		#contt{
+			padding-top: 2em;
+			margin-bottom: 2em;
+		}
+		}

@@ -1,0 +1,26 @@
+
+
+.pagewidth{
+	width: 960px;
+}
+.bb{
+	box-sizing: border-box;
+}
+.headline{
+	font-family: 'Roboto Slab', serif;
+	font-size: 30px;
+	color: orange;
+	margin-bottom: 10px;
+	font-weight: bold;
+	text-shadow: gray 2px 2px ;
+}
+/* TEXT-ALIGN CENTERED */
+.tac{
+	text-align: center;
+}
+/* FLOAT LEFT CENTERED */
+.flc{
+	float: left;	
+	margin-right: auto;
+	margin-left: auto;
+}

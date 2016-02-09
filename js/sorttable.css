@@ -1,0 +1,10 @@
+	/* Sortable tables */
+table.sortable thead {
+    background-color: gray;
+    color:white;
+    font-weight: bold;
+    cursor: default;
+}
+tr:nth-child(even) {
+    background-color: #eee;
+}
